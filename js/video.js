@@ -53,7 +53,7 @@ document.querySelector("#slower").addEventListener("click", function() {
 document.querySelector("#slider").addEventListener("change", function() {
 	video.volume = document.querySelector("#slider").value / 100;
 	console.log(video.volume);
-	document.getElementById("volume").innerHTML = document.querySelector("#slider").value;
+	document.getElementById("volume").innerHTML = document.querySelector("#slider").value + "%";
 	console.log(document.querySelector("#slider").value);
 });
 
